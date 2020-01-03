@@ -1,0 +1,16 @@
+target/
+.mvn/
+application.properties
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### Output
+
+out/**/*.json
