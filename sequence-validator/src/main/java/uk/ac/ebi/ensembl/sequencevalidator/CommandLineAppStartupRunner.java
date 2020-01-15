@@ -14,7 +14,7 @@ import uk.ac.ebi.ensembl.sequencevalidator.models.GeneSequence;
 import uk.ac.ebi.ensembl.sequencevalidator.processors.GeneSequenceProcessor;
 
 @Component
-@PropertySource("classpath:application.properties")
+@PropertySource("classpath:sequence-validator.properties")
 public class CommandLineAppStartupRunner implements CommandLineRunner {
     @Autowired
     private GeneSequenceProcessor processor;

@@ -1,0 +1,1 @@
+Please modify the local path in application.properties before running SequenceValidatorApplication.java
